@@ -40,5 +40,5 @@ end
 
 def retrieve_last_element_from_array(array)
   names = ["Hong", "Jen", "Jenn", "Jenny", "Jennifer", "Kimberly"]
-  names[3]
+  names[5]
 end
