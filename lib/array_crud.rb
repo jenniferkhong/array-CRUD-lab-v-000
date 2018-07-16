@@ -8,12 +8,12 @@ end
 
 def add_element_to_end_of_array(array, element)
   names = ["Jen", "Jenn", "Jenny", "Jennifer"]
-  add_element_to_end_of_array << "Kimberly"
+  names << "Kimberly"
 end
 
 def add_element_to_start_of_array(array, element)
   names = ["Jen", "Jenn", "Jenny", "Jennifer"]
-  add_element_to_start_of_array.unshift("Hong")
+  names.unshift("Hong")
 end
 
 def remove_element_from_end_of_array(array)
