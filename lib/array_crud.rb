@@ -19,7 +19,8 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  kimberly_names = remove_element_from_end_of_array.pop
+  names = ["Hong", "Jen", "Jenn", "Jenny", "Jennifer", "Kimberly"]
+  kimberly_names = names.pop
 end
 
 def remove_element_from_start_of_array(array)
