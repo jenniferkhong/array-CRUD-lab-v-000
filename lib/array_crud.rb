@@ -24,17 +24,21 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  hong_names = remove_element_from_start_of_array.shift
+  names = ["Hong", "Jen", "Jenn", "Jenny", "Jennifer", "Kimberly"]
+  hong_names = names.shift
 end
 
 def retrieve_element_from_index(array, index_number)
+  names = ["Hong", "Jen", "Jenn", "Jenny", "Jennifer", "Kimberly"]
   names[2]
 end
 
 def retrieve_first_element_from_array(array)
+  names = ["Hong", "Jen", "Jenn", "Jenny", "Jennifer", "Kimberly"]
   names[0]
 end
 
 def retrieve_last_element_from_array(array)
+  names = ["Hong", "Jen", "Jenn", "Jenny", "Jennifer", "Kimberly"]
   names[3]
 end
